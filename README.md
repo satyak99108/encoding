@@ -1,0 +1,1 @@
+A basic Encoding Tool for cybersecurity experts, which will enable them to encode different types of strings or secrets.
