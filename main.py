@@ -1,11 +1,7 @@
-# main.py
-
 from menu import display_menu
 
 
 def main():
-    """Main loop of the Encoder Toolkit."""
-
     print("=" * 40)
     print("      ENCODER TOOLKIT")
     print("=" * 40)
