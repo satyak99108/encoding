@@ -1,5 +1,3 @@
-# encoders/hex_codec.py
-
 def encode():
     text = input("Enter text to encode: ")
 
@@ -7,3 +5,16 @@ def encode():
 
     print("\nEncoded Text:")
     print(encoded)
+
+
+def decode():
+    text = input("Enter Hex text: ")
+
+    try:
+        decoded = bytes.fromhex(text)
+
+        print("\nDecoded Text:")
+        print(decoded.decode())
+
+    except:
+        print("\nInvalid Hex input!")
